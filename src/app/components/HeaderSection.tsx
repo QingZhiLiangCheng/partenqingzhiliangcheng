@@ -29,7 +29,7 @@ export default function HeaderSection() {
                         </li>
 
                         <li className="nav_item">
-                            <a href="https://qingzhiliangcheng.cpolar.cn/" className="nav_link">
+                            <a href="https://qingzhiliangcheng.cn/" className="nav_link">
                                 <i className=""></i>
                                 <p>Blog</p>
                             </a>
