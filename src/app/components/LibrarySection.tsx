@@ -1,5 +1,4 @@
 import {PinContainer} from "../components/aceternityui/3d-pin";
-import {FocusCards} from "../components/aceternityui/focuscards";
 
 function LibrarySection() {
     const cardData = [
@@ -32,10 +31,10 @@ function LibrarySection() {
     ];
     return (
 
-        <section className="about" id="about">
-            <h2 className="section_title_data" id="about_title">Library</h2>
-            <span className="section_subtitle" id="about__subtitle">My recommend book</span>
-            <div className="about_container content">
+        <section className="library section" id="about">
+            <h2 className="section_title_data" id="library_title">Library</h2>
+            <span className="section_subtitle" id="library_subtitle">推荐书目</span>
+            <div className="library_container content">
                 <div className="card-wall">
                     {cardData.map((card, index) => (
                         <PinContainer

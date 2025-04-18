@@ -3,22 +3,18 @@ import HomeSection from "@/app/components/HomeSection";
 import FooterSection from "@/app/components/FooterSection";
 import LibrarySection from "@/app/components/LibrarySection";
 import React from 'react';
-
-interface BoxRevealProps {
-  children: React.ReactNode; // 使用 React.ReactNode 替代 JSX.Element
-  width?: "fit-content" | "100%";
-  boxColor?: string;
-  duration?: number;
-}
+import BlogSection from "@/app/components/BlogSection";
+import {MajorSection} from "@/app/components/MajorSection";
 
 
 export default function Home() {
-  return (
-      <main className="main">
-        <HeaderSection/>
-        <HomeSection/>
-        <LibrarySection/>
-        <FooterSection/>
-      </main>
-  );
+    return (
+        <main className="main">
+            <HeaderSection/>
+            <HomeSection/>
+            <MajorSection/>
+            <LibrarySection/>
+            <FooterSection/>
+        </main>
+    );
 }
